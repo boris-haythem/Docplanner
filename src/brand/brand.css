@@ -1,0 +1,43 @@
+.brand-section{
+    margin-top: 30px !important;
+    display: flex;
+}
+.brand-section h1{
+    
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+}
+.brands-logos {
+    /* display: flex;
+    flex-wrap: wrap; */
+    font-size: 0;
+    /* width: 67%; */
+    list-style: none;
+    padding: 0px;
+}
+.brands-logos li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 168px;
+    padding: 5px 0;
+    
+}
+.brands-logos a {
+    display: inline-block;
+    padding: 5px 0;
+    
+}
+.brands-logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+    fill: #ababab;
+}
+.brands-logos a:hover svg{
+    
+    
+    fill:  #00b39b;
+}
